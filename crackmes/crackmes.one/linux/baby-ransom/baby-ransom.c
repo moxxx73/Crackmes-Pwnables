@@ -4,7 +4,6 @@
 #include <dirent.h>
 #include <stdio.h>
 #include <sys/stat.h>
-#include "registers.h"
 
 
 void stat_wrapper(char *filename, struct stat *stat_struct){
